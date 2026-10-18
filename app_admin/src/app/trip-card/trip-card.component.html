@@ -25,6 +25,7 @@
     </p>
 
     <button
+      *ngIf="isLoggedIn()"
       class="btn btn-info"
       (click)="editTrip(trip)">
       Edit Trip
